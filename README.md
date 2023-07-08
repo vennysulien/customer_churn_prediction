@@ -8,11 +8,3 @@
   Sistem tersebut memungkinkan user dapat:
   1. Menginput data dari masing-masing variabel
   2. Mengetahui prediksi klasifikasi pelanggan baru
-
-# Hasil Test Case
-1. Menambah Nama, Jumlah, dan Harga Item
-   
-2. Menghapus Item
-   ![Picture Delete Item](https://github.com/vennysulien/python-project-pacmann/blob/main/picture_2_delete_item.jpg?raw=true)
-3. Menghitung Total Harga Belanja dan Total Harga Belanja Setelah Diskon
-  ![Picture Hitung Total Belanja](https://github.com/vennysulien/python-project-pacmann/blob/main/picture_3_hitung_total_belanja.jpg?raw=true)
