@@ -1,0 +1,91 @@
+# config.yaml
+
+#Path Related
+data_source:
+    dataset_path : WA_Fn-UseC_-Telco-Customer-Churn.csv
+df_cleaned_path: data/processed/raw_dataset.pkl
+train_set_path:
+- data/processed/x_train.pkl
+- data/processed/y_train.pkl
+valid_set_path:
+- data/processed/x_valid.pkl
+- data/processed/y_valid.pkl
+test_set_path:
+- data/processed/x_test.pkl
+- data/processed/y_test.pkl
+train_feng_set_path:
+- data/processed/x_train_feng.pkl
+- data/processed/y_train_feng.pkl
+valid_feng_set_path:
+- data/processed/x_valid_feng.pkl
+- data/processed/y_valid_feng.pkl
+test_feng_set_path:
+- data/processed/x_test_feng.pkl
+- data/processed/y_test_feng.pkl
+production_model_path: models/production_model.pkl
+
+
+#Columns by data type related
+object_columns:
+- customerID
+- gender
+- SeniorCitizen
+- Partner
+- Dependents
+- PhoneService
+- MultipleLines
+- InternetService
+- OnlineSecurity
+- OnlineBackup
+- DeviceProtection
+- TechSupport
+- StreamingTV
+- StreamingMovies
+- Contract
+- PaperlessBilling
+- PaymentMethod
+- Churn
+int_columns:
+- tenure
+float_columns:
+- MonthlyCharges
+- TotalCharges
+
+# Range of data related
+range_tenure:
+- 0
+- 72
+range_MonthlyCharges:
+- 1
+- 150
+range_TotalCharges:
+- 1
+- 
+
+# Predictors and Label related
+Label : Churn
+Predictors :
+- gender
+- SeniorCitizen
+- Partner
+- Dependents
+- PhoneService
+- MultipleLines
+- InternetService
+- OnlineSecurity
+- OnlineBackup
+- DeviceProtection
+- TechSupport
+- StreamingTV
+- StreamingMovies
+- Contract
+- PaperlessBilling
+- PaymentMethod
+- tenure
+- MonthlyCharges
+- TotalCharges
+
+
+
+
+
